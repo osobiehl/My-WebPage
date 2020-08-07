@@ -1,0 +1,26 @@
+.header{
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(160,226,202,1));
+    padding: 60px 20px;
+    width: fit-content;
+}
+.nav-wrapper{
+    display : flex;
+    flex-direction: row-reverse;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 999;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
